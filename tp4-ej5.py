@@ -14,6 +14,7 @@ from string import ascii_lowercase
 letras = list(ascii_lowercase)
 
 # Mostramos la lista generada
+print("Lista original: ")
 print(letras)
 
 letras_pos = []
@@ -21,5 +22,5 @@ for i in range(len(letras)):
     if i % 3 == 0:
         letras_pos.append(letras[i])
 
-print("Lista resultante: \n")
+print("\nLista resultante: ")
 print(letras_pos)
