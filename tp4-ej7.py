@@ -21,8 +21,13 @@ def palabras_pares(frase: str) -> list:
     # Devolvemos la lista resultante
     return resultado
 
-# Probamos la función 
-frase_de_prueba = input("Ingrese una frase: ")
+def main() -> None:
 
-# Mostramos el resultado
-print(palabras_pares(frase_de_prueba))
+    # Probamos la función 
+    frase_de_prueba = input("Ingrese una frase: ")
+
+    # Mostramos el resultado
+    print(palabras_pares(frase_de_prueba))
+
+if __name__ == "__main__":
+    main()
